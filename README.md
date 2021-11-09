@@ -10,7 +10,7 @@ Method is tested on [MuJoCo](http://www.mujoco.org/) continuous control tasks in
 - [ray\[tune\]](https://docs.ray.io/en/releases-1.5.0/tune/index.html)
 - [MuJoCo](http://www.mujoco.org/)
 - [mujoco-py](https://github.com/openai/mujoco-py)
-- [OpenAI gym](https://github.com/openai/gym), 
+- [OpenAI gym](https://github.com/openai/gym)
 
 ### Usage
 Experiments on single environments can be run by calling:

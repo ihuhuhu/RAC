@@ -3,6 +3,15 @@ Author's PyTorch implementation of Realistic Actor-Critic(RAC) for OpenAI gym ta
 
 Method is tested on [MuJoCo](http://www.mujoco.org/) continuous control tasks in [OpenAI gym](https://github.com/openai/gym). If you use our code or data please cite the [paper](https://arxiv.org/abs/2110.09712). Networks are trained using [PyTorch 1.9](https://github.com/pytorch/pytorch) and Python 3.8. 
 
+## Requirements
+- Python>=3.8
+- PyTorch==1.9.0
+- [ray==1.5.0](https://github.com/ray-project/ray)
+- [ray\[tune\]](https://docs.ray.io/en/releases-1.5.0/tune/index.html)
+- [MuJoCo](http://www.mujoco.org/)
+- [mujoco-py](https://github.com/openai/mujoco-py)
+- [OpenAI gym](https://github.com/openai/gym), 
+
 ### Usage
 Experiments on single environments can be run by calling:
 ```

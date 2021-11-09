@@ -5,7 +5,7 @@ Method is tested on [MuJoCo](http://www.mujoco.org/) continuous control tasks in
 
 ## Requirements
 - Python>=3.8
-- PyTorch==1.9.0
+- [PyTorch==1.9.0](https://github.com/pytorch/pytorch)
 - [ray==1.5.0](https://github.com/ray-project/ray)
 - [ray\[tune\]](https://docs.ray.io/en/releases-1.5.0/tune/index.html)
 - [MuJoCo](http://www.mujoco.org/)

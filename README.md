@@ -21,6 +21,15 @@ python RAC_SAC.py --env Ant-v3 --replay_buffer_size 200000 --seed 30 --seed_num 
 python RAC_SAC.py --env Hopper-v3 --replay_buffer_size 1000000 --seed 30 --seed_num 8
 python RAC_SAC.py --env Walker2d-v3 --replay_buffer_size 100000 --seed 30 --seed_num 8
 ```
+
+```
+cd ./RAC-TD3
+python RAC_TD3.py --env Humanoid-v3 --replay_buffer_size 300000 --seed 30 --seed_num 8
+python RAC_TD3.py --env Ant-v3 --replay_buffer_size 200000 --seed 30 --seed_num 8
+python RAC_TD3.py --env Hopper-v3 --replay_buffer_size 1000000 --seed 30 --seed_num 8
+python RAC_TD3.py --env Walker2d-v3 --replay_buffer_size 100000 --seed 30 --seed_num 8
+```
+
 Hyper-parameters can be modified with different arguments to RAC-SAC.py or RAC-TD3.py. 
 
 ### Bibtex

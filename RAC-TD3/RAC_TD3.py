@@ -21,7 +21,7 @@ if __name__ == "__main__":
     parser.add_argument("--seed", default=30, type=int, help='Sets Gym, PyTorch and Numpy seeds')
     parser.add_argument("--seed_num", default=1, type=int, help='seed numbers')
     parser.add_argument("--start_timesteps", default=5e3, type=int, help='Time steps initial random policy is used')
-    parser.add_argument("--eval_freq", default=1e3, type=int, help='How often (time steps) we evaluate')
+    parser.add_argument("--eval_freq", default=3e3, type=int, help='How often (time steps) we evaluate')
     parser.add_argument("--expl_noise", default=0.1, help='Std of Gaussian exploration noise')  #
     parser.add_argument("--policy_noise", default=0.2, help='Noise added to target policy during critic update')  #
     parser.add_argument("--noise_clip", default=0.5, help='Range to clip target policy noise')  #

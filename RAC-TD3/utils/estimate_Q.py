@@ -27,6 +27,7 @@ class Q_estimator:
 
     def get_action_list(self, random_step, eval_env):
         action_list = []
+        eval_env.seed(self.config['seed'] + 100)
         state, done = eval_env.reset(), False
         for x in range(random_step):
             action = self.agent.select_action(np.array(state),
@@ -38,6 +39,7 @@ class Q_estimator:
     def cal_Q_bias(self, action_list, MC_samples, max_mc_steps, eval_env):
         Q_mc = []
         for x in range(MC_samples):
+            eval_env.seed(self.config['seed'] + 100)
             state, done = eval_env.reset(), False
             for action in action_list:
                 last_state = state
